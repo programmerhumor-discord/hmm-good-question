@@ -1,10 +1,10 @@
 module.exports = {
 	arrowParens: "avoid",
-	tabWidth: 4,
+	tabWidth: 2,
 	useTabs: true,
 	trailingComma: "none",
 	singleAttributePerLine: true,
 	bracketSameLine: true,
 	quoteProps: "consistent",
-	plugins: [require("prettier-plugin-tailwindcss")]
+	plugins: []
 };
