@@ -49,7 +49,6 @@ const Signup: React.FC = () => {
 						data-tip="Password must be strong and username must not be taken">
 						<button
 							disabled={!valid}
-							type="submit"
 							onClick={() => {}}
 							className="btn-primary btn">
 							Create account
