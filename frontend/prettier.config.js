@@ -6,5 +6,5 @@ module.exports = {
 	singleAttributePerLine: true,
 	bracketSameLine: true,
 	quoteProps: "consistent",
-	plugins: []
+	plugins: [require("prettier-plugin-tailwindcss")]
 };
